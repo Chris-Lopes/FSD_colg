@@ -17,7 +17,6 @@ contract MyContract {
 
     function setMyVariable(uint256 _newValue) public onlyOwner {
         require(_newValue >= minValue, "Value too small");
-        require(type(uint256).max - _newValue >= 1000, "Value too large");
         myVariable = _newValue;
     }
 
