@@ -1,4 +1,4 @@
-//No vulnerabilities found
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 contract MyContract {
@@ -24,6 +24,4 @@ contract MyContract {
     function getMyVariable() public view returns (uint256) {
         return myVariable;
     }
-    
-
 }
