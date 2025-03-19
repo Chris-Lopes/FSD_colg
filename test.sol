@@ -1,6 +1,6 @@
+//No vulnerabilities found
 pragma solidity ^0.8.0;
 
-//No vulnerabilities found
 contract MyContract {
     uint256 public myVariable;
     address public owner;
