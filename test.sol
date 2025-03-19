@@ -1,6 +1,6 @@
-// SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+//CORRECTED CODE
 contract MyContract {
     uint256 public myVariable;
     address public owner;
@@ -24,4 +24,3 @@ contract MyContract {
     function getMyVariable() public view returns (uint256) {
         return myVariable;
     }
-}
